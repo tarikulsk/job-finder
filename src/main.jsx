@@ -10,6 +10,8 @@ import {
 import Home from './component/Home/Home'
 import Blog from './component/Blog/Blog'
 import First from './component/First/First'
+import Statistics from './component/Statistics/Statistics'
+import AppliedJobs from './component/AppliedJobs/AppliedJobs'
 
 const router = createBrowserRouter([
   {
@@ -17,8 +19,16 @@ const router = createBrowserRouter([
     element: <Home />,
     children: [
       {
-        path: ' ',
-        element: <Home />
+        path: '/',
+        element: <First />
+      },
+      {
+        path: 'statistics',
+        element: <Statistics />
+      },
+      {
+        path: 'appliedjobs',
+        element: <AppliedJobs />
       },
       {
         path: 'blog',
