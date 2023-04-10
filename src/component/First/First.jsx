@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Category from '../Category/Category';
 
+
 const First = () => {
 
     const categories = useLoaderData()
@@ -47,6 +48,7 @@ const First = () => {
                 </div>
 
             </section>
+
         </main>
     );
 };

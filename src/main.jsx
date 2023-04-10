@@ -13,6 +13,7 @@ import First from './component/First/First'
 import Statistics from './component/Statistics/Statistics'
 import AppliedJobs from './component/AppliedJobs/AppliedJobs'
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,7 +22,8 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <First />,
-        loader: () => fetch('/public/categories.json')
+        loader: () => fetch('/public/categories.json'),
+
       },
       {
         path: 'statistics',
@@ -35,6 +37,7 @@ const router = createBrowserRouter([
         path: 'blog',
         element: <Blog />
       }
+
     ]
   },
 ]);
