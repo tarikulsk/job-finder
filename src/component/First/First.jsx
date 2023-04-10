@@ -37,7 +37,7 @@ const First = () => {
                 <br />
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <br />
-                <div className='grid md:grid-cols-4 gap-6'>
+                <div className='grid align-middle md:grid-cols-4 gap-6'>
                     {
                         categories.map(category => <Category
                             key={category.id}
