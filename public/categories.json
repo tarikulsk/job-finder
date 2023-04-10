@@ -18,9 +18,9 @@
         "icon": "https://cdn-icons-png.flaticon.com/512/1968/1968641.png"
     },
     {
-        "id": 1,
-        "name": "Account & Finance",
-        "Available_jobs": "300 Jobs Available",
-        "icon": "https://cdn-icons-png.flaticon.com/512/535/535433.png"
+        "id": 4,
+        "name": "Engineering Job",
+        "Available_jobs": "224 Jobs Available",
+        "icon": "https://cdn-icons-png.flaticon.com/512/4257/4257483.png"
     }
 ]
