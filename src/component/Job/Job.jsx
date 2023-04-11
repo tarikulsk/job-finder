@@ -7,9 +7,9 @@ const Job = ({ job }) => {
     const { id, job_title, company_name, jobs_type, location, salary, company_logo } = job;
 
     return (
-        <div>
+        <div >
 
-            <div className='border text-left border-orange-300 p-20'>
+            <div className='border text-left  border-orange-300 p-20 '>
                 <img src={company_logo} alt="" />
 
                 <h1 className='text-2xl font-bold mt-2 '> {job_title} </h1>
