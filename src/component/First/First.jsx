@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Category from '../Category/Category';
+import Job from '../Job/Job';
+
 
 
 const First = () => {
 
-    const categories = useLoaderData()
-    // console.log(categories);
+    const categories = useLoaderData();
+    const [jobs, setJobs] = useState([]);
+    useEffect(() => {
+        fetch('jobsfile.json')
+            .then(res => res.json()
+                .then(data => setJobs(data)))
+    }, [])
+
+
+
     return (
         <main>
             <section>
@@ -23,7 +33,7 @@ const First = () => {
 
                     </div>
                     <div>
-                        <img src="/public/images/P3OLGJ1 copy 1.png" alt="" />
+                        <img src="P3OLGJ1 copy 1.png" alt="" />
 
                     </div>
 
@@ -47,6 +57,23 @@ const First = () => {
 
                 </div>
 
+            </section>
+            <br />
+            <section>
+                <div>
+                    <h1 className='font-bold text-3xl'>Featured Jobs</h1>
+                    <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                    <br />
+                    <div className='grid md:grid-cols-2'>
+                        {
+                            jobs.map(job => <Job
+                                key={job.id}
+                                job={job}
+                            ></Job>)
+                        }
+
+                    </div>
+                </div>
             </section>
 
         </main>

@@ -5,7 +5,6 @@
         "company_name": "Google LCC",
         "jobs_type": [
             "Full Time",
-            "Part Time",
             "Remote"
         ],
         "location": "Dhaka, Bangladesh",
@@ -18,12 +17,11 @@
     },
     {
         "id": 2,
-        "job_title": "Account & Finance",
-        "company_name": "Account & Finance",
+        "job_title": "Senior Product Designer",
+        "company_name": "Netflix",
         "jobs_type": [
             "Full Time",
-            "Part Time",
-            "Remote"
+            "Onsite"
         ],
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
@@ -35,12 +33,11 @@
     },
     {
         "id": 3,
-        "job_title": "Account & Finance",
-        "company_name": "Account & Finance",
+        "job_title": "Software Engineer",
+        "company_name": "Tesla",
         "jobs_type": [
-            "Full Time",
-            "Part Time",
-            "Remote"
+            "Onsite",
+            "Part Time"
         ],
         "location": "Dhaka, Bangladesh",
         "salary": "100K - 150K",
@@ -52,11 +49,10 @@
     },
     {
         "id": 4,
-        "job_title": "Account & Finance",
-        "company_name": "Account & Finance",
+        "job_title": "Technical Database Engineer",
+        "company_name": "Google LLC",
         "jobs_type": [
             "Full Time",
-            "Part Time",
             "Remote"
         ],
         "location": "Dhaka, Bangladesh",
