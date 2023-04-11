@@ -13,7 +13,7 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "Educational Requirements": "Bachelor degree to complete any Reputed university.",
         "Experiences": "2-3 Years in this field.",
-        "company_logo": "https://cdn-icons-png.flaticon.com/512/535/535433.png"
+        "company_logo": "google.png"
     },
     {
         "id": 2,
@@ -29,7 +29,7 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "Educational Requirements": "Bachelor degree to complete any Reputed university.",
         "Experiences": "2-3 Years in this field.",
-        "company_logo": "https://cdn-icons-png.flaticon.com/512/535/535433.png"
+        "company_logo": "netflix.png"
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "Educational Requirements": "Bachelor degree to complete any Reputed university.",
         "Experiences": "2-3 Years in this field.",
-        "company_logo": "https://cdn-icons-png.flaticon.com/512/535/535433.png"
+        "company_logo": "tesla.png"
     },
     {
         "id": 4,
@@ -61,12 +61,12 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "Educational Requirements": "Bachelor degree to complete any Reputed university.",
         "Experiences": "2-3 Years in this field.",
-        "company_logo": "https://cdn-icons-png.flaticon.com/512/535/535433.png"
+        "company_logo": "google.png"
     },
     {
         "id": 5,
         "job_title": "Account & Finance",
-        "company_name": "Account & Finance",
+        "company_name": "Tesla",
         "jobs_type": [
             "Full Time",
             "Part Time",
@@ -78,12 +78,12 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "Educational Requirements": "Bachelor degree to complete any Reputed university.",
         "Experiences": "2-3 Years in this field.",
-        "company_logo": "https://cdn-icons-png.flaticon.com/512/535/535433.png"
+        "company_logo": "tesla.png"
     },
     {
         "id": 6,
         "job_title": "Account & Finance",
-        "company_name": "Account & Finance",
+        "company_name": "Google LLC",
         "jobs_type": [
             "Full Time",
             "Part Time",
@@ -95,6 +95,6 @@
         "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "Educational Requirements": "Bachelor degree to complete any Reputed university.",
         "Experiences": "2-3 Years in this field.",
-        "company_logo": "https://cdn-icons-png.flaticon.com/512/535/535433.png"
+        "company_logo": "google.png"
     }
 ]

@@ -9,13 +9,40 @@ const First = () => {
 
     const categories = useLoaderData();
     const [jobs, setJobs] = useState([]);
+
+
+    const [show, setShow] = useState(true);
+
+    const changeState = () => {
+        setShow(!show);
+    }
+
+    // return (
+    //     <div className="App">
+    //         {show ? (
+    //             <button onClick={changeState}> Display </button>
+    //         ) : (
+    //             <button onClick={changeState}> Hide </button>
+    //         )}
+    //     </div> /
     useEffect(() => {
         fetch('jobsfile.json')
             .then(res => res.json()
-                .then(data => setJobs(data)))
+                .then(data => setJobs(data.slice(0, 4))))
     }, [])
 
+    const seeMoreHandlers = () => {
+        fetch('jobsfile.json')
+            .then(res => res.json())
+            .then(data => setJobs(data))
 
+    }
+    const seeLessHandlers = () => {
+        fetch('jobsfile.json')
+            .then(res => res.json())
+            .then(data => setJobs(data.slice(0, 4)))
+
+    }
 
     return (
         <main>
@@ -60,11 +87,11 @@ const First = () => {
             </section>
             <br />
             <section>
-                <div>
-                    <h1 className='font-bold text-3xl'>Featured Jobs</h1>
+                <div className='mt-10'>
+                    <h1 className='font-bold  text-3xl'>Featured Jobs</h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                     <br />
-                    <div className='grid md:grid-cols-2'>
+                    <div className='grid md:grid-cols-2 gap-8'>
                         {
                             jobs.map(job => <Job
                                 key={job.id}
@@ -76,6 +103,15 @@ const First = () => {
                 </div>
             </section>
 
+
+            <div className='mt-10'>
+                {show ? (
+                    <button onClick={() => { seeMoreHandlers(); changeState() }} className="btn bg-purple-500 border-none text-white">See More</button>
+                ) : (
+                    <button onClick={() => { seeLessHandlers(); changeState() }} className="btn bg-purple-500 border-none text-white">See Less</button>
+                )}
+
+            </div>
         </main>
     );
 };
