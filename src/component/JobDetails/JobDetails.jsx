@@ -16,17 +16,17 @@ const JobDetails = () => {
     }, [jobdetailsId, jobdetails])
 
     useEffect(() => {
-        fetch('products.json')
+        fetch('jobsfile.json')
             .then(res => res.json())
             .then(data => setJobdata(data))
     }, []);
 
 
-    // console.log(jobdata.job_title);
+
     const { id, job_title, description, responsibility, requirements, experiences, salary, location, phone, email } = jobdata;
 
     const addToApplied = id => {
-        // console.log(id)
+
         addToApply(id)
     }
 
