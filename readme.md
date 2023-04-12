@@ -37,7 +37,7 @@ Then If Click on Apply Button. You Application will Submitted.
 
         
 ## 🛠 Skills
-Javascript, HTML, CSS, ReactJS
+Javascript, HTML, CSS, Reactjs
 
 
 ## Other Common Github Profile Sections
