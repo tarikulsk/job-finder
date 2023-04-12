@@ -4,7 +4,7 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
     return (
-        <div className='grid  md:grid-cols-3 mb-5'>
+        <div className='grid gap-5 md:grid-cols-3 mb-5'>
             <div><Link to=' '><h1 className='text-4xl font-bold '>JOB FINDER</h1></Link></div>
             <div className='mt-4  flex justify-between'>
 

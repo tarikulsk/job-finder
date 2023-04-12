@@ -17,14 +17,7 @@ const First = () => {
         setShow(!show);
     }
 
-    // return (
-    //     <div className="App">
-    //         {show ? (
-    //             <button onClick={changeState}> Display </button>
-    //         ) : (
-    //             <button onClick={changeState}> Hide </button>
-    //         )}
-    //     </div> /
+
     useEffect(() => {
         fetch('/jobsfile.json')
             .then(res => res.json()

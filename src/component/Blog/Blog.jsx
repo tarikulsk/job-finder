@@ -6,7 +6,7 @@ const Blog = () => {
             <div >
                 <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
                     <div className="collapse-title text-xl font-medium">
-                        When Should We Use "Contest API"?
+                        When Should We Use "Context API"?
                     </div>
                     <div className="collapse-content">
                         <p>The main idea of using the context is to allow your components to access global data and re-render when that global data is changed. Context solves the props drilling problem: when you have to pass down props from parents to children.</p>

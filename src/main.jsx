@@ -14,6 +14,7 @@ import Statistics from './component/Statistics/Statistics'
 import AppliedJobs from './component/AppliedJobs/AppliedJobs'
 import JobDetails from './component/JobDetails/JobDetails'
 import Job from './component/Job/Job'
+import NotFind from './component/NotFind/NotFind'
 
 
 const router = createBrowserRouter([
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog />
+      },
+      {
+        path: '*',
+        element: <NotFind></NotFind>
       }
 
     ]

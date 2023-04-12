@@ -6,8 +6,8 @@ const ApplyJob = ({ carts }) => {
     const { id, job_title, salary, location, company_logo, company_name, jobs_type } = carts;
     return (
         <div className='border border-orange-300 rounded-md '>
-            <div className='border grid grid-cols-5  border-orange-300 p-10 '>
-                <div className='col-span-1'>
+            <div className='border grid md:grid-cols-5  border-orange-300 p-6 '>
+                <div className='col-span-1 p-14'>
                     <img src={company_logo} alt="" />
                 </div>
 
@@ -28,7 +28,7 @@ const ApplyJob = ({ carts }) => {
                 </div>
 
 
-                <div className='col-span-1'>
+                <div className=' p-12 col-span-1'>
                     <button className="btn bg-purple-500 border-none text-white"> <Link to={`/jobdetails/${id}`}
 
                     >View Details</Link>  </button>
