@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Job = ({ job }) => {
+const Job = ({ job, addToApplied }) => {
     // console.log(job)
     // const jobs = job.slice(0, 4)
     // console.log(jobs);
@@ -26,10 +26,10 @@ const Job = ({ job }) => {
                 </div>
                 <br />
 
-                <button className="btn bg-purple-500 border-none text-white">View Details</button>
-                <p><Link to={`/jobdetails/${id}`}
+                <button className="btn bg-purple-500 border-none text-white"> <Link to={`jobdetails/${id}`}
 
-                > show the details</Link> </p>
+                >View Details</Link>  </button>
+                <p></p>
 
             </div>
         </div>

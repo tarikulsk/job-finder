@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToApply } from '../../utils/fake';
 
 
 
@@ -13,8 +14,21 @@ const JobDetails = () => {
         setJobdata(jobdetails.find(job => job.id == jobdetailsId))
 
     }, [jobdetailsId, jobdetails])
-    console.log(jobdata.job_title);
+
+    useEffect(() => {
+        fetch('products.json')
+            .then(res => res.json())
+            .then(data => setJobdata(data))
+    }, []);
+
+
+    // console.log(jobdata.job_title);
     const { id, job_title, description, responsibility, requirements, experiences, salary, location, phone, email } = jobdata;
+
+    const addToApplied = id => {
+        // console.log(id)
+        addToApply(id)
+    }
 
 
     return (
@@ -75,7 +89,7 @@ const JobDetails = () => {
 
                 </div>
                 <div className='mt-5'>
-                    <button className="px-40 bg-purple-400 text-white border-none btn ">Apply Now</button>
+                    <button onClick={() => addToApplied(id)} className="px-40 bg-purple-400 text-white border-none btn ">Apply Now</button>
                 </div>
             </div>
 

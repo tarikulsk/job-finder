@@ -44,6 +44,8 @@ const First = () => {
 
     }
 
+
+
     return (
         <main>
             <section>
@@ -96,6 +98,7 @@ const First = () => {
                             jobs.map(job => <Job
                                 key={job.id}
                                 job={job}
+
                             ></Job>)
                         }
 
