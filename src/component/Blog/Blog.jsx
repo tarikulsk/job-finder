@@ -6,34 +6,34 @@ const Blog = () => {
             <div >
                 <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
                     <div className="collapse-title text-xl font-medium">
-                        Focus me to see content
+                        When Should We Use "Contest API"?
                     </div>
                     <div className="collapse-content">
-                        <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+                        <p>The main idea of using the context is to allow your components to access global data and re-render when that global data is changed. Context solves the props drilling problem: when you have to pass down props from parents to children.</p>
                     </div>
                 </div>
                 <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
                     <div className="collapse-title text-xl font-medium">
-                        Focus me to see content
+                        What is Custom Hook?
                     </div>
                     <div className="collapse-content">
-                        <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+                        <p>Custom React JS hooks are reusable functions that a React JS software developer can use to add special and unique functionality to the React applications. Usually, if there is a requirement to add a feature, one can install a third-party library and solve the problem.</p>
                     </div>
                 </div>
                 <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
                     <div className="collapse-title text-xl font-medium">
-                        Focus me to see content
+                        What is The Use of "useRef"?
                     </div>
                     <div className="collapse-content">
-                        <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+                        <p>he useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.</p>
                     </div>
                 </div>
                 <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
                     <div className="collapse-title text-xl font-medium">
-                        Focus me to see content
+                        What is The Use of "useMemo"?
                     </div>
                     <div className="collapse-content">
-                        <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+                        <p>The useMemo Hook can be used to keep expensive, resource intensive functions from needlessly running. In this example, we have an expensive function that runs on every render. When changing the count or adding a todo, you will notice a delay in execution.</p>
                     </div>
                 </div>
 
