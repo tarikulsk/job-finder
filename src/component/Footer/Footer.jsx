@@ -47,10 +47,17 @@ const Footer = () => {
 
 
             </div>
+            <br />
             <hr />
+            <br />
+            <br />
 
-            <div>
-                <p>@2023 CareerHub. All Rights Reserved</p>
+
+            <div className='flex justify-between'>
+                <p>@2023 JobFinder. All Rights Reserved</p>
+                <p>
+                    Powered by CareerHub
+                </p>
             </div>
         </div>
 
