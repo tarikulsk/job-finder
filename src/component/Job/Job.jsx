@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
     // console.log(job)
@@ -26,6 +27,9 @@ const Job = ({ job }) => {
                 <br />
 
                 <button className="btn bg-purple-500 border-none text-white">View Details</button>
+                <p><Link to={`/jobdetails/${id}`}
+
+                > show the details</Link> </p>
 
             </div>
         </div>

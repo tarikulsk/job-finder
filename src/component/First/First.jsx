@@ -26,19 +26,19 @@ const First = () => {
     //         )}
     //     </div> /
     useEffect(() => {
-        fetch('jobsfile.json')
+        fetch('/jobsfile.json')
             .then(res => res.json()
                 .then(data => setJobs(data.slice(0, 4))))
     }, [])
 
     const seeMoreHandlers = () => {
-        fetch('jobsfile.json')
+        fetch('/jobsfile.json')
             .then(res => res.json())
             .then(data => setJobs(data))
 
     }
     const seeLessHandlers = () => {
-        fetch('jobsfile.json')
+        fetch('/jobsfile.json')
             .then(res => res.json())
             .then(data => setJobs(data.slice(0, 4)))
 

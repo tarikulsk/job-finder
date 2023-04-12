@@ -12,6 +12,8 @@ import Blog from './component/Blog/Blog'
 import First from './component/First/First'
 import Statistics from './component/Statistics/Statistics'
 import AppliedJobs from './component/AppliedJobs/AppliedJobs'
+import JobDetails from './component/JobDetails/JobDetails'
+import Job from './component/Job/Job'
 
 
 const router = createBrowserRouter([
@@ -22,9 +24,19 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <First />,
-        loader: () => fetch('categories.json'),
+        loader: () => fetch('/categories.json'),
 
       },
+      {
+        path: 'jobdetails/:jobdetailsId',
+        element: <JobDetails></JobDetails>,
+        loader: () => fetch('/jobsfile.json'),
+      },
+      {
+        path: "jobs",
+        element: <Job></Job>
+      },
+
       {
         path: 'statistics',
         element: <Statistics />
